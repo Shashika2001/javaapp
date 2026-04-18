@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+  Basic landing page for the Java embedded Tomcat app.
+  Access at: http://localhost:8080/
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Java DevOps App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: #f6f8fa;
+      color: #1f2937;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 24px;
+      width: min(540px, 90vw);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 1.6rem;
+    }
+    code {
+      background: #eef2ff;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Java Maven Web App</h1>
+    <p>Embedded Tomcat is running successfully.</p>
+    <p>Test API endpoint: <code>/hello</code></p>
+    <p>Expected response: <code>{"message":"Hello DevOps"}</code></p>
+  </main>
+</body>
+</html>
