@@ -3,11 +3,12 @@ import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 
+import org.apache.catalina.Context;
+import org.apache.catalina.startup.Tomcat;
+
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.apache.catalina.Context;
-import org.apache.catalina.startup.Tomcat;
 
 /**
  * Main application class that starts an embedded Tomcat server on port 8080.
